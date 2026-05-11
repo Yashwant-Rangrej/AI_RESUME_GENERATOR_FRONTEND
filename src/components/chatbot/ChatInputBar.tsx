@@ -61,7 +61,7 @@ const ChatInputBar: React.FC<ChatInputBarProps> = ({
           <Button 
             onClick={handleSend} 
             disabled={!value.trim()}
-            className="bg-blue-600 hover:bg-blue-700 h-10 w-10 p-0 rounded-full flex-shrink-0"
+            className="bg-indigo-600 hover:bg-indigo-700 h-10 w-10 p-0 rounded-full flex-shrink-0"
           >
             <Send size={18} />
           </Button>

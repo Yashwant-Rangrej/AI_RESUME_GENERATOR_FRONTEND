@@ -31,7 +31,7 @@ const ResumePreviewPane: React.FC = () => {
       
       <div className="absolute bottom-6 right-6 z-10">
         <Link href="/resume">
-          <Button size="lg" className="rounded-full shadow-lg bg-blue-600 hover:bg-blue-700 gap-2">
+          <Button size="lg" className="rounded-full shadow-lg bg-indigo-600 hover:bg-indigo-700 gap-2">
             <Download size={18} /> Download PDF
           </Button>
         </Link>

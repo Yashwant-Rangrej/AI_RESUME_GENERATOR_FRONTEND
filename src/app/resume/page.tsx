@@ -32,10 +32,10 @@ export default function FinalResumePage() {
           </Link>
           <div className="h-6 w-px bg-slate-200 hidden md:block" />
           <div className="hidden md:flex items-center gap-2">
-            <div className="bg-blue-600 p-1 rounded text-white">
+            <div className="bg-indigo-600 p-1 rounded text-white">
               <FileText size={14} />
             </div>
-            <span className="font-bold tracking-tight text-slate-800">Final Resume</span>
+            <span className="font-bold tracking-tight text-slate-800">Final Resume — Quick Resume</span>
           </div>
         </div>
 

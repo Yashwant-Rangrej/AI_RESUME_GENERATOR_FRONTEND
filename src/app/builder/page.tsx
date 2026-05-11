@@ -16,16 +16,16 @@ export default function BuilderPage() {
       {/* Mini Navbar */}
       <nav className="h-14 border-b flex items-center px-6 justify-between bg-white z-20">
         <Link href="/" className="flex items-center gap-2">
-          <div className="bg-blue-600 p-1 rounded text-white">
+          <div className="bg-indigo-600 p-1 rounded text-white">
             <FileText size={16} />
           </div>
-          <span className="font-bold text-lg tracking-tight text-slate-900">AI Resume</span>
+          <span className="font-bold text-lg tracking-tight text-slate-900">Quick Resume</span>
         </Link>
         <div className="flex items-center gap-4">
           <div className="hidden md:flex items-center gap-3">
             <div className="w-48 h-2 bg-slate-100 rounded-full overflow-hidden border">
               <div 
-                className="bg-blue-600 h-full transition-all duration-500 ease-out" 
+                className="bg-indigo-600 h-full transition-all duration-500 ease-out" 
                 style={{ width: `${progress}%` }}
               />
             </div>

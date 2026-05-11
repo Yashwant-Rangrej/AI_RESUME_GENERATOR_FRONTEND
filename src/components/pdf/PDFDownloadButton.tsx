@@ -51,7 +51,7 @@ const PDFDownloadButton: React.FC<PDFDownloadButtonProps> = ({ data, fileName, c
       <Button 
         onClick={handleBackendDownload}
         disabled={isGenerating}
-        className="bg-blue-600 hover:bg-blue-700 gap-2 shadow-md shadow-blue-100"
+        className="bg-indigo-600 hover:bg-indigo-700 gap-2 shadow-md"
       >
         {isGenerating ? <Loader2 className="animate-spin" size={16} /> : <Download size={16} />}
         {isGenerating ? 'Generating...' : 'Download PDF'}

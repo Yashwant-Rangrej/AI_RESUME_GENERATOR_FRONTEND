@@ -5,7 +5,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 'full_name',
     section: 'personal',
-    botMessage: "Hello! I'm your AI Resume Assistant. I'll guide you through building a professional resume step by step. Ready? Let's start with your name. What is your full name?",
+    botMessage: "Hello! I'm your Quick Resume Assistant. I'll guide you through building a professional resume step by step. Ready? Let's start with your name. What is your full name?",
     placeholder: "e.g. John Doe",
     inputType: 'text',
     required: true,
